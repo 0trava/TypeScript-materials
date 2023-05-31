@@ -16,5 +16,27 @@
 
 <p>npm init -y</p>
 
+![image](https://github.com/0trava/TypeScript-materials/assets/102797527/2df58e35-e5a8-47a2-8a3c-58f6d5436f33)
+
+<b>Array</b> - масив рядків. let arrString: string[];</p>
+<b>Object</b> - Якщо тип object const obj: object = {};</p>
+
+<h2> Типи, яких немає в js</h2>
+
+Any - Вказуючи цей тип, ми робимо змінну як у js, туди можна передати все, що завгодно. </p>
+Unknown - а змістом це те саме, що й any, тільки коли ми будемо намагатися його зберегти в іншу змінну, ми отримаємо помилку.</p>
+Tuple - Одним словом - це незмінний масив. </p>
+Є нюанс, якщо ми додамо через push, то компілятор це пропустить, він не відстежує реальний вміст масиву.</p>
+
+![image](https://github.com/0trava/TypeScript-materials/assets/102797527/08785415-2fbc-4669-82b8-a21f9b9f2bad)
+
+Enum - Це навіть патерн, але він такий популярний, що в typeScript вирішили додати його як тип даних.</p>
+За правилами гарного тону змінна, яка в enum, починається з великої літери.</p>
+
+![image](https://github.com/0trava/TypeScript-materials/assets/102797527/fdfc537d-587a-45bd-9cd0-1312b6f08d3a)
+
+
+
+
 
 
