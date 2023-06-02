@@ -16,16 +16,25 @@ str = some;
 var fixed;
 fixed = ['Max', 21];
 // Опишіть enum умову наступну: він повинен відображати статус завантаження. Завантажується (LOADING) та завантажена (READY).
-// Зробіть змінну, яка може приймати або рядок, або число.
-// Зробіть змінну, яка може приймати лише одне значення з двох: 'enable' або 'disable'
 // Вкажіть типи для наступних функцій
-var Role;
-(function (Role) {
-    Role[Role["LOADING"] = 0] = "LOADING";
-    Role[Role["READY"] = 1] = "READY";
-})(Role || (Role = {}));
+var Load;
+(function (Load) {
+    Load[Load["LOADING"] = 0] = "LOADING";
+    Load[Load["READY"] = 1] = "READY";
+})(Load || (Load = {}));
 ;
+var page = {
+    load: Load.READY
+};
+if (page.load === Load.LOADING) {
+    console.log('Сторінка завантажується');
+}
+if (page.load === Load.READY) {
+    console.log('Сторінка завантажена');
+}
+// Зробіть змінну, яка може приймати або рядок, або число.
 var let1;
+// Зробіть змінну, яка може приймати лише одне значення з двох: 'enable' або 'disable'
 var let2;
 function showMessage(message) {
     console.log(message);

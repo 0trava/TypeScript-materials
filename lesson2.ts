@@ -25,13 +25,29 @@ let fixed: [string, number];
 fixed = ['Max', 21];
 
 // Опишіть enum умову наступну: він повинен відображати статус завантаження. Завантажується (LOADING) та завантажена (READY).
-// Зробіть змінну, яка може приймати або рядок, або число.
-// Зробіть змінну, яка може приймати лише одне значення з двох: 'enable' або 'disable'
+
+
 // Вкажіть типи для наступних функцій
 
-enum Role  {LOADING, READY};
+enum Load {LOADING, READY};
+
+const page = {
+  load: Load.READY
+}
+
+if (page.load === Load.LOADING) {
+  console.log('Сторінка завантажується');
+}
+if (page.load === Load.READY) {
+  console.log('Сторінка завантажена');
+}
+
+// Зробіть змінну, яка може приймати або рядок, або число.
 
 let let1 : string | number;
+
+// Зробіть змінну, яка може приймати лише одне значення з двох: 'enable' або 'disable'
+
 let let2 : 'enable' | 'disable';
 
 
@@ -44,7 +60,7 @@ function showMessage(message: string) {
     return num1 + num2;
   }
   
-  function customError() : string  {
+  function customError() : never  {
     throw new Error('Error');
   }
 
