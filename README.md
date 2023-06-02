@@ -173,6 +173,34 @@ Extending Interfaces
 Ми можемо розширювати наші інтерфейси іншими за допомогою команди extends.
 
 ![image](https://github.com/0trava/TypeScript-materials/assets/102797527/b7d2a461-20f1-4634-aa1d-de06f9f150f2)
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<h2>UML та шаблони проектування</h2>
+
+![image](https://github.com/0trava/TypeScript-materials/assets/102797527/b122b527-bba1-4e39-a25e-b6a17b891c8b)
+
+![image](https://github.com/0trava/TypeScript-materials/assets/102797527/db726577-bc9d-435c-a109-e286c9dc7c1f)
+
+
+<h2>Шаблони проектування</h2>
+
+Ми розберемо декілька шаблонів проектування.
+![image](https://github.com/0trava/TypeScript-materials/assets/102797527/da6042b5-6b3e-4f5d-801e-6418b4e38ffa)
+
+Цей шаблон дозволяє не плодити об'єкти, повертаючи той самий екземпляр.
+
+![image](https://github.com/0trava/TypeScript-materials/assets/102797527/88c230c4-9b7c-4f4c-b9ad-b0821cae0d19)
+
+![image](https://github.com/0trava/TypeScript-materials/assets/102797527/f25154c5-66dd-423e-abf7-1769e6c78275)
+
+Використовується, коли нам потрібно багато однотипних об'єктів із загальним інтерфейсом.
+
+![image](https://github.com/0trava/TypeScript-materials/assets/102797527/91ad5848-0e98-4c4c-9605-a3e77c5d5dc4)
+
+
+
+
+
+
 
 
 
