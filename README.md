@@ -196,9 +196,25 @@ Extending Interfaces
 
 ![image](https://github.com/0trava/TypeScript-materials/assets/102797527/91ad5848-0e98-4c4c-9605-a3e77c5d5dc4)
 
+<h3>Generics </h3>
 
+Ще говорять узагальнений тип, оскільки generic - це загальний, ну ви навряд чи в компанії почуєте напиши тут узагальнений тип, я далі буду просто писати дженерик.
 
+Ми знаємо, що масив - це об'єкт Array і хочемо уточнити, які типи він може містити.
 
+let arr: Array<string | number> = [];
+
+Давайте ще приклад, коли це просто необхідно, це коли ми працюємо з асинхронним кодом. Оскільки Promise може повернути все, що завгодно, без дженерика ми ніколи не будемо знати, що він повертає.
+
+const promise: Promise<string> = new Promise((resolve) => {
+  setInterval(() => {
+    resolve('Done!');
+  }, 1000);
+});
+
+promise.then((data) => {
+  console.log(data);
+});
 
 
 
