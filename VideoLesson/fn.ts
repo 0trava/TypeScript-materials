@@ -19,10 +19,10 @@ const getNumbers = (...numbers: number[] ) => {
 
 // ---------------------------------------- Перегрузка
 
-function getCar(name:string): string
-function getCar(name: string, price?: number): string
+// function getCar(name:string): string
+// function getCar(name: string, price?: number): string
 
-function getCar(name: string, price: number): string {
+function getCar(name: string, price?: number): string {
     return price ? `Название ${name}, Цена ${price}` : `Название ${name}` 
 }
 
